@@ -9,26 +9,21 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"/>
     </head>
     <body>
-        <header class="nav-bar">
-            <h3 class="home-text">HOME</h3>
-        </header>
-        <main class="body-wrapper">
-            <div id="inner-body-wrapper">
-                <div class="title1">
-                    <div class="circTxt" id="test"></div>
-                </div>
-                <div class="small-title-wrap">
-                    <h1 class="small-title-text">Traveling Tails</h1>
-                </div>
-                <div class="pix-blurb-wrap">
-                    <div class="first-dog"></div>
-                    <p class="blurb-above-bar">Find dog friendly places near you!</p>
-                </div>
-                <div class="bar-button-wrap">
-                    <input id="search-bar" type="text" placeholder="Enter your location!" required> 
-                    <button type="submit" id="first-page-button">Fetch!</button>
-                </div>
-            </div> 
+        <!-- Navigation Bar -->
+        <nav class="navbar main-nav  is-dark" role="navigation" aria-label="main navigation">
+            <div class="navbar-start">
+                <a class="navbar-item" href='/'>Home</a>
+            </div>
+            <div class="navbar-end">
+                <a class="navbar-item" page-scroll href="#about">About</a>
+                <a class="navbar-item" page-scroll href="#portfolio">Portfolio</a>
+                <a class="navbar-item" page-scroll href="#skills">Skills</a>
+                <a class="navbar-item" page-scroll href="#contact">Contact</a>
+            </div>
+        </nav>
+        <!-- Main Body -->
+        <main>
+            <h1></h1>
         </main>
         <script src="scripts/index.js"></script>
     </body>
